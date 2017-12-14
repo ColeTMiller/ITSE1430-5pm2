@@ -1,0 +1,10 @@
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib.Data.Sql\bin\Debug\MovieLib.Data.Sql.dll
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib.Data.Sql\bin\Debug\MovieLib.Data.Sql.pdb
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib.Data.Sql\bin\Debug\MovieLib.dll
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib.Data.Sql\bin\Debug\MovieLib.pdb
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib.Data.Sql\obj\Debug\MovieLib.Data.Sql.csprojResolveAssemblyReference.cache
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib.Data.Sql\obj\Debug\MovieLib.Data.Sql.csproj.CoreCompileInputs.cache
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib.Data.Sql\obj\Debug\MovieLib.Data.Sql.dll
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib.Data.Sql\obj\Debug\MovieLib.Data.Sql.pdb
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib.Data.Sql\bin\Debug\MovieDatabase.dll
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib.Data.Sql\bin\Debug\MovieDatabase.pdb

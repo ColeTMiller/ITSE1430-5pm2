@@ -44,7 +44,9 @@ namespace MovieLib.Web.Controllers
                     return RedirectToAction("List");
                 } catch (Exception e)
                 {
-                    ModelState.AddModelError("", e.Message);
+                    ModelState.AddModelError("movie already exists", e.Message);
+                    
+                    
                 };                
             };
             
@@ -61,11 +63,20 @@ namespace MovieLib.Web.Controllers
         }
 
         [HttpPost]
-        public ActionResult Delete ( MovieViewModel model )
+        public ActionResult Delete( MovieViewModel model )
         {
-            _database.Remove(model.Id);
-
-            return RedirectToAction("List");
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _database.Remove(model.Id);
+                    return RedirectToAction("List");// add a try catch so movie delete works 
+                } catch (Exception e)
+                {
+                    ModelState.AddModelError("", e.Message);  // to catch any wreed name that might pop in 
+                };
+            };
+            return View(model); 
         }
 
         public ActionResult Edit ( int id )
@@ -99,7 +110,10 @@ namespace MovieLib.Web.Controllers
         public ActionResult List()
         {
             var movies = from m in _database.GetAll()
+                         orderby m.Title ascending              // got the movie Titles in ascending order 
                          select m;
+            if (movies == null)
+                return HttpNotFound(); 
             
             return View(movies.ToViewModel());
         }

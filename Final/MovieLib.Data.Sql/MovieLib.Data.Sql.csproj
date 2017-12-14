@@ -46,6 +46,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MovieDatabase\MovieDatabase.sqlproj">
+      <Project>{d336cd26-c9b8-4b7f-83e7-2f951df1fabc}</Project>
+      <Name>MovieDatabase</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MovieLib\MovieLib.csproj">
       <Project>{0edae33f-3b44-40ba-974a-7d7a86d9d8aa}</Project>
       <Name>MovieLib</Name>

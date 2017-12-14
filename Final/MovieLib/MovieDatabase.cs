@@ -46,7 +46,7 @@ namespace MovieLib.Data
 
         /// <summary>Gets all the movies.</summary>
         /// <returns>The list of movies.</returns>
-        public IEnumerable<Movie> Getall ()
+        public IEnumerable<Movie> GetAll ()
         {
             return GetAllCore();
         }

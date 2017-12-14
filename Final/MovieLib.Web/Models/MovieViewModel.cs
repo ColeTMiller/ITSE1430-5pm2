@@ -14,7 +14,8 @@ namespace MovieLib.Web.Models
     {
         public int Id { get; set; }
 
-        [Required(AllowEmptyStrings = false)]
+        [Required]
+        [StringLength(100)] // add a max string range to the title 
         public string Title { get; set; }
 
         public string Description { get; set; }
@@ -22,12 +23,12 @@ namespace MovieLib.Web.Models
         [Display(Name = "Is Owned")]
         public bool IsOwned { get; set; }
 
-        [Range(0, Int32.MaxValue)]
+        [Range(2, Int32.MaxValue)]
         public int Length { get; set; }
 
         public Rating Rating { get; set; }
 
-        [Display(Name = "Release Year")]
+        [Range(1900, 2100)] // add a date range for the dates 
         public int ReleaseYear { get; set; }
 
         public IEnumerable<ValidationResult> Validate ( ValidationContext validationContext ) => Enumerable.Empty<ValidationResult>();        

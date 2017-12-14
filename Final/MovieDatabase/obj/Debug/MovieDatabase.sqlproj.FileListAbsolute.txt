@@ -1,0 +1,5 @@
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieDatabase\bin\Debug\MovieDatabase.dacpac
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieDatabase\bin\Debug\MovieDatabase.dll
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieDatabase\bin\Debug\MovieDatabase.pdb
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieDatabase\obj\Debug\MovieDatabase.dll
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieDatabase\obj\Debug\MovieDatabase.pdb

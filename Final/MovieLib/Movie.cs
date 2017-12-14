@@ -51,6 +51,13 @@ namespace MovieLib
             //Length must be >= 0.
             if (Length < 0)
                 yield return new ValidationResult("Length must be >= 0.", new[] { "Length" });
+
+            if (ReleaseYear < 1900)
+                yield return new ValidationResult("Release date must be > 0.", new[] { "RelaseDate" });
+
+            if (ReleaseYear > 2100)
+                yield return new ValidationResult("Relase date must be < 2100", new[] { "ReleaseDate" });
+
         }
 
         #region Private Members

@@ -1,0 +1,6 @@
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib\bin\Debug\MovieLib.dll
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib\bin\Debug\MovieLib.pdb
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib\obj\Debug\MovieLib.csprojResolveAssemblyReference.cache
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib\obj\Debug\MovieLib.csproj.CoreCompileInputs.cache
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib\obj\Debug\MovieLib.dll
+C:\Users\cole.miller218\Source\Repos\ITSE1430-5pm2\Final\MovieLib\obj\Debug\MovieLib.pdb

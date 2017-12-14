@@ -34,7 +34,9 @@ namespace MovieLib.Web.Models
                 Description = source.Description,
                 Length = source.Length,
                 IsOwned = source.IsOwned,
-                ReleaseYear = source.ReleaseYear
+                ReleaseYear = source.ReleaseYear,  // add a common because it need it 
+                //Add a Rating = source.Rating so it can be used during the program 
+                Rating = source.Rating,
             };
         }
 
@@ -46,12 +48,13 @@ namespace MovieLib.Web.Models
             return new Movie()
             {
                 Id = source.Id,
-                Title = source.Title,
+                Title = source.Title,   
 
                 Description = source.Description,
                 Length = source.Length,
                 IsOwned = source.IsOwned,
-                ReleaseYear = source.ReleaseYear
+                ReleaseYear = source.ReleaseYear,   // need a comma, 
+                Rating = source.Rating,             // Also add a Rating = source.Rating because it needs to be used 
             };
         }
     }
